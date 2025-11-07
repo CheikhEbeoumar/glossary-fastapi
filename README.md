@@ -1,23 +1,25 @@
-# Glossary FastAPI Service
+## Контейнеризация и российские аналоги (Containerization and Russian Alternatives)
 
-A RESTful API for managing glossary terms built with FastAPI, SQLite, and Docker.
+### Docker Configuration
+Приложение полностью контейнеризовано с использованием Docker для обеспечения переносимости.
 
-## Features
+### Российские аналоги контейнеризации (Russian Containerization Alternatives)
 
-- ✅ Get all terms
-- ✅ Get specific term by ID
-- ✅ Add new term
-- ✅ Update existing term
-- ✅ Delete term
-- ✅ Automatic Swagger documentation
-- ✅ Docker containerization
-- ✅ SQLite database with auto-migration
+#### 1. **Sailfish Platform** 
+- Российская платформа контейнеризации
+- Совместимость с Docker образами
+- Поддержка отечественных ОС
 
-## Quick Start
+#### 2. **XFlow Containers**
+- Разработка компании "Ред Софт"
+- Интеграция с российскими системами виртуализации
 
-### Using Docker Compose (Recommended)
+#### 3. **Astra Linux с Docker**
+- Использование Docker на отечественной ОС
+- Сертификация ФСТЭК
 
-1. Clone the repository:
+### Инструкция по развертыванию
+
+#### Локальное развертывание:
 ```bash
-git clone <your-repo-url>
-cd glossary-fastapi
+docker-compose up --build
